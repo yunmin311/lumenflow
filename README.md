@@ -52,6 +52,18 @@ python main.py
 [APIServer] Listening on 0.0.0.0:8080
 === SYSTEM RUNNING ===
 ```
+## Analysis Log（梳理日志）
+
+- 2026-04-21
+  - 目标：对仓库进行“全面梳理 → 知识点清单 → 分阶段学习路径”整理，输出可执行的学习路线与上手指南。
+  - 已开始：发起全面梳理分析任务（状态：queued）。
+  - 任务链接：https://github.com/yunmin311/lumenflow/tasks/af8c5317-bbdf-4a83-af44-334b124ad336
+  - 下一步：
+    1) 盘点仓库结构（顶层目录/文件用途）
+    2) 定位运行入口（CLI / main / Web 服务入口等）
+    3) 梳理依赖与环境管理方式（requirements / pyproject 等）并给出最短运行路径
+    4) 识别核心模块边界与典型执行流程（调用链 & 数据流）
+    5) 汇总“仓库实际涉及”的知识点清单，并拆分成 3-5 阶段学习路径（每阶段：必读文件+练习）
 
 ## 下一步建议
 
