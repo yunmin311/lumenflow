@@ -1,0 +1,1 @@
+# Keep empty for scaffold stage; add runtime deps when integrating real services.
