@@ -1,1 +1,9 @@
-"""Module responsible for the core logic of power_monitor in Lumenflow project."""
+"""Power status monitor abstraction."""
+
+
+class PowerMonitor:
+    """Simple power monitor placeholder for embedded deployment."""
+
+    def battery_percent(self) -> int:
+        """Return mocked battery percentage."""
+        return 100
